@@ -2,7 +2,7 @@
 
 def tipping_system():
     print("Welcome to our tipping system!")
-    bill_total = int(input("What was the total of this bill?: "))
+    bill_total = float(input("What was the total of this bill?: "))
     tip_percent = int(input("How much would you like to tip?: "))
     bill_split = int(input("How many people is this bill split amongst?: "))
     bill = bill_total * tip_percent/100 
